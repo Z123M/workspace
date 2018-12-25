@@ -23,7 +23,7 @@ public class UserRestController {
     /**
      * 根据用户名获取用户信息，包括从库的地址信息
      *
-     * @param userName
+     * @param userName 用户名
      * @return
      */
     @RequestMapping(value = "/api/user", method = RequestMethod.GET)
